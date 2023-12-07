@@ -1,0 +1,87 @@
+.navbar {
+    display: flex;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000; 
+    width: 100%;
+}
+
+
+.navbar-brand{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.nav-link {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.login {
+    background-image: url(img/W.png);
+    background-size: cover;
+    min-height: 87vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-left: 3.5rem;
+}
+.login-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-button:hover {
+    background-color: #2980b9;
+}
+
+.dashboard {
+    background-image: url(img/W.png);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.top-footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.top-footer p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.cart {
+    background-image: url(img/W.png);
+    background-size: cover;
+    min-height: 87vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
